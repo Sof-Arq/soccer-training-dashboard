@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Touchline • Soccer Training</title><link rel="stylesheet" href="style.css"><script defer src="model.js"></script><script defer src="app.js"></script></head>
 <body>
-<header><a class="brand" href="./"><span class="mark">↗</span> TOUCHLINE<span class="brand-small">GROUP 31 / TRAINING LAB</span></a><span class="badge" id="connection">Demo ready</span></header>
+<header><a class="brand" href="./"><span class="mark">↗</span> SOCCER TRAINING <span class="brand-small">GROUP 31 / TRAINING LAB</span></a><span class="badge" id="connection">Demo ready</span></header>
 <main>
-<div class="intro"><div><p class="eyebrow">INTERACTIVE SOCCER TRAINING SYSTEM</p><h1>Every shot tells a story.</h1><p class="sub">Speed. Target. Result. Your session, in one place.</p></div><div class="date">SOFIA’S PROTOTYPE<br><strong>23 OCT 2026</strong></div></div>
+<div class="intro"><div><p class="eyebrow">INTERACTIVE SOCCER TRAINING SYSTEM</p><h1>Every shot tells a story.</h1><p class="sub">Speed. Target. Result. Your session, in one place.</p></div><div class="date">SOFIA’S PROTOTYPE<br><strong></strong></div></div>
 <section class="toolbar" aria-label="Session controls"><label>Data source <select id="mode"><option value="demo">Demonstration</option><option value="live">Local device connection</option></select></label><button id="start" class="primary">Start demo</button><button id="pause" disabled>Pause</button><button id="clear">Clear view</button><label class="units">Speed unit <select id="unit"><option value="kmh">km/h</option><option value="mps">m/s</option><option value="mph">mph</option></select></label></section>
 <p id="notice" class="notice" role="status">Demo mode uses generated shots. No sensor is connected.</p>
 <div class="stats"><article><p>Latest shot speed</p><strong id="speed">—</strong><span class="unit-label">km/h</span></article><article><p>Target hit rate</p><strong id="accuracy">—</strong><span id="accuracy-note">No classified shots</span></article><article><p>Shots in this view</p><strong id="count">0</strong><span>Up to 200 recent attempts</span></article><article><p>Average valid speed</p><strong id="average">—</strong><span class="unit-label">km/h</span></article></div>
